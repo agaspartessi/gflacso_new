@@ -1,0 +1,418 @@
+
+/*----------------------------------- CURSO RECURSO: CARPETA ARCHIVOS -----------------------*/
+
+.fp-icon {
+  float: left;
+  margin-top: -7px;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.fp-icon img {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.path-mod-folder .folderbuttons {
+text-align:center;
+}
+
+/*----------------------------------- CURSO RECURSO: ETIQUETA EXTENDIDA -----------------------*/
+.extendedlabel .seemoreless:hover {
+cursor:pointer;
+}
+
+.extendedlabel .seemoreless:hover {
+cursor:pointer;
+}
+
+.extendedlabel p.title {
+margin-bottom:5px;
+display:block;
+}
+
+#section-0 .extendedlabel p.title, .extendedlabel p.title {
+font-size: 15px !important;
+margin-bottom:5px;
+font-weight:bold;
+color:#152f4e;
+}
+
+#section-0 a.seemoreless, a.seemoreless{
+font-size: 15px !important;
+}
+
+#section-0 a.seemoreless:before, a.seemoreless:before{
+font-family:"FontAwesome";
+padding-right:5px;
+}
+
+.moodle-actionmenu[data-enhanced].show .menu {
+display: list-item;
+}
+
+a.seemoreless.less:before {
+content: "\f056";
+}
+
+a.seemoreless.more:before {
+content: "\f055";
+}
+
+
+/*----------------------------------- CURSO RECURSO: PAGINA -----------------------*/
+
+.path-mod-page #region-main .no-overflow {
+  word-wrap: break-word;
+}
+
+/*----------------------------------- CURSO RECURSO: CHOICE -----------------------*/
+
+.path-mod-choice .results .header.c3 {
+text-align:left;
+}
+
+
+/*----------------------------------- CURSO RECURSO: GLOSARIO -----------------------*/
+.path-mod-glossary #region-main table{
+table-layout: fixed;
+}
+
+.moodle-dialogue-confirm .confirmation-dialogue .confirmation-message {
+text-align: left;
+}
+
+.path-mod-glossary .glosary_tab:hover {
+cursor:pointer;
+}
+
+.path-mod-glossary .entry .attachments{
+font-size: 14px;
+border: 1px solid #e0e0e0;
+display: inline-block;
+padding: 0 10px 0 10px;
+line-height: 24px;
+margin: 5px 0 0 0;
+}
+
+.path-mod-glossary .glossarypost {
+border-bottom: 1px solid #ccc;
+margin-bottom: 20px;
+padding-bottom: 10px;
+}
+
+.path-mod-glossary .entry .cat {
+color: #FFF;
+background-color: #444444;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+line-height: 24px;
+padding: 0 10px 0 10px;
+display: inline-block;
+}
+
+.path-mod-glossary .singleselect {
+width:100%;
+}
+
+#glossary_tabs {
+width: 95%;
+margin: 0 auto 20px auto;
+}
+
+/*----------------------------------- CURSO RECURSO: BASE DE DATOS -----------------------------*/
+.path-mod-data #region-main table{
+table-layout: initial;
+}
+
+.path-mod-data #region-main table td.template-token{
+/*display: table;
+width: 100%;*/
+table-layout: fixed;
+}
+
+.mod-data-default-template .template-field {
+font-weight: bold;
+color: #152f4e;
+padding-left:0px;
+}
+
+
+#page-mod-data-templates form .boxwidthwide {
+width:100%;
+}
+
+#page-mod-data-templates form .boxwidthwide label{
+display:initial;
+}
+
+#page-mod-data-templates form .boxwidthwide .template_heading{
+margin-top:0px;
+}
+
+#page-mod-data-templates .o2k7Skin .mceStatusbar {
+height:auto;
+}
+
+#page-mod-data-templates .o2k7Skin .mceStatusbar div {
+float:none;
+}
+
+#page-mod-data-templates .o2k7Skin div,#page-mod-data-templates .o2k7Skin div #template_path {
+white-space:normal;
+}
+
+#page-mod-data-templates .o2k7Skin div #template_path_row  {
+max-width:446px;
+}
+
+#page-mod-data-templates .o2k7Skin div #template_path_row span{
+display:inline-block;
+}
+
+#page-mod-data-templates .o2k7Skin div #template_path a, #page-mod-data-templates .o2k7Skin div #template_path span{
+display:inline-block;
+}
+
+.path-mod-data .nav-tabs,
+.path-mod-wiki .nav-tabs{
+padding-top:20px;
+}
+
+.path-mod-data #region-main .recordcheckbox ~ .defaulttemplate {
+/*border-bottom: 1px solid #ccc;*/
+padding-bottom: 10px;
+margin-bottom: 10px;
+}
+
+.path-mod-data .defaulttemplate {
+text-align:left;
+}
+
+#page-mod-data-edit.path-mod-data #region-main .defaulttemplate .template-token.c1 legend{
+display:none;
+}
+
+#page-mod-data-edit.path-mod-data #region-main .defaulttemplate td{
+vertical-align:middle;
+padding-bottom:5px;
+}
+
+#page-mod-data-edit.path-mod-data #region-main .defaulttemplate .template-token.c1 label{
+margin-bottom:0px;
+}
+
+#page-mod-data-edit.path-mod-data #region-main .defaulttemplate .template-token.c1 select{
+margin-bottom:0px;
+}
+
+#page-mod-data-edit.path-mod-data #region-main .defaulttemplate .template-token.c1 label > div{
+float:left;
+}
+
+#page-mod-data-edit.path-mod-data #region-main .filemanager ~ .mdl-left > label{
+float:left;
+margin-top:5px;
+}
+
+#page-mod-data-edit.path-mod-data #region-main .filemanager ~ .mdl-left{
+margin-top:5px;
+}
+
+/*----------------------------------- CURSO RECURSO: FORO ---------------------------------------*/
+
+/*
+.path-mod-forum .forumheaderlist .discussion .lastpost {
+text-align: left;
+}
+*/
+
+
+
+.forumpost .row .topic {
+padding-top:4px;
+}
+
+.forumpost .row.maincontent{
+padding-top:4px;
+}
+
+#page-mod-forum-discuss .discussioncontrols .discussioncontrol {
+width:initial;
+}
+
+.path-mod-forum .replies{
+text-align:center;
+}
+
+.path-mod-forum #notice .buttons{
+float:none;
+}
+
+.path-mod-forum .printicon  {
+	background: url([[pix:t/print]]) no-repeat scroll 2px center transparent; /* url(/theme/image.php?theme=gflacso&component=core&image=t%2Fprint)*/ 
+  	padding-left: 23px;
+    margin-left: 15px;
+}
+
+.path-mod-forum {
+	.discussion-list .userpicture,
+	.discussion-list .grouppicture {
+		height:auto;
+	}
+
+	.author .align-middle {
+		display: flex;
+    	align-items: center;
+	}
+}
+
+/*----------------------------------- CURSO RECURSO: FORO AVANZADO -------------------------------*/
+#page-mod-hsuforum-view #region-main {
+max-width:initial;
+}
+
+/*----------------------------------- CURSO RECURSO: CLASE ---------------------------------------*/
+.path-mod-book .book_chapter_title,
+.path-mod-book .book_content > h3:first-child,
+.path-mod-book .book_content > h3:first-child + h4 {
+line-height: 24px;
+color: #152f4e;
+font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+text-align: left;
+font-size: large;
+font-weight: bold;
+margin-left: 0;
+margin-bottom: 20px;
+}
+
+.path-mod-book h3.book_chapter_title,
+.path-mod-book .book_content > h3:first-child + h4 {
+font-weight:normal;
+}
+
+.path-mod-book h4.book_chapter_title{
+font-weight:normal;
+font-size:16px;
+}
+
+
+
+#page-mod-book-view .tablamaterial img ~ em {
+margin-top: 5px;
+display: block;
+}
+
+#page-mod-book-view .path-mod-book {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#page-mod-book-view .block__fake .print_links {
+border-top: 1px solid #ccc;
+	a {
+		display:block;
+		margin-top: .5em;
+	}
+}
+
+.navbottom img,.navtop img {
+display: none;
+}
+
+.navbottom a img,.navtop a img {
+display: initial;
+}
+
+
+.tablamaterial TD,
+.tablamaterial {
+text-align: justify;
+}
+
+#page-mod-book-view .book_content,
+#page-mod-book-view .book_content td,
+#page-mod-page-view .generalbox,
+#page-mod-page-view .generalbox td {
+text-align: justify;
+}
+
+#page-mod-page-view .modified {
+display:none;
+}
+
+#page-mod-book-view .book_content > div.no-overflow,
+#page-mod-page-view .generalbox > div.no-overflow{
+padding:1px;
+}
+
+/** ETIQUETAS **/
+
+.path-tag .tag-management-box li a {
+  padding-top: 3px;
+  padding-left: 21px;
+  padding-bottom: 3px;
+  background-size: 16px;
+  background-position: left center;
+}
+
+/*---------------------- GLOSSARY DIALOG --------------------------*/
+
+.moodle-dialogue-base .moodle-dialogue-wrap {
+	width: 800px !important;
+	margin-left: -400px;
+	height: 500px;
+	overflow-y: auto;
+	margin-top: -250px;
+	position: fixed !important;
+	top: 50%;
+	left: 50%;
+}
+
+@media(max-width:900px){
+	.moodle-dialogue-base .moodle-dialogue-wrap {
+		max-width:90%;
+		margin-left:-45%;
+	}
+
+}
+.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd {
+	text-align:left;
+	padding-left:12px
+}
+
+.moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
+	text-transform:uppercase;
+	margin-left:12px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+/*--------------------- BASE DE DATOS -------------------------*/
+/*.comment-ctrl {
+	display:block;
+}*/
+
+.comment-message{
+	font-size: 13px;
+	line-height: 17px;
+}
+
+.comment-message .picture img {
+	margin: 0px;
+	width:35px;
+}
+
+.comment-message .picture {
+width: 35px;
+padding:0px;
+margin: 0 4px;
+}
+
+.comment-link img {
+vertical-align: middle;
+}

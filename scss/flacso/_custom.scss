@@ -1,0 +1,160 @@
+/*---------------------------------- FOOTER ------------------------------------*/
+
+#page-footer{
+	margin:0px;
+  border-top:none;
+  
+  a {
+    text-decoration: none;
+  }
+}
+
+.nova-foot .container-fluid {
+	max-width: 815px;
+}
+
+#page-footer.nova-foot{
+	padding-top: 20px;
+	padding-bottom: 50px; 
+	line-height: 17px;
+	font-size: 13px;
+	font-family: helvetica,sans-serif;	
+	text-align: left;
+	background-color: #fff;
+}
+#page-footer .row1,
+#page-footer .row2{
+	margin: 0 auto;
+	float:left;
+	width:50%;
+}
+
+.nova-foot ul, .nova-foot ol{
+	float:left;
+	margin-left: 1%;
+	margin-right: 2.5%;
+  list-style-type: none;
+  padding: 0;
+}
+.nova-foot ol li a{
+	color:#333;
+	font-weight: bold;
+}
+.nova-foot ol li{
+	margin-bottom: 10px;
+	color:#333;
+  font-weight: bold;
+  line-height:20px;
+}
+.nova-foot ul li a{
+	color:#777;
+}
+.nova-foot ul li:first-child a{
+	font-weight	: bold;
+	margin-bottom: 10px;
+	color: #333; 
+}
+
+.nova-foot .column {
+	height:180px;
+}
+
+.adres{
+	padding-top: 30px;
+	margin-top:10px;
+	display: block;
+	float: left;
+	color:#777;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	width:100%;
+}
+.adres small{
+
+	width: 245px;
+	float: left;
+	display: block;
+	margin-right: 5px;
+}
+
+.social{
+	float: left; 
+	height: 27px;
+	margin-right: 100px;
+	margin-bottom:22px;
+	width: 181px;
+}
+.red{
+	float: left;
+	display: block;
+	width:30px;
+	height: 27px;
+	margin-left: 5px;
+	background-image:url([[pix:theme|icono]]);
+}
+.face{
+	background-position: 0px 0px;
+}
+.twi{
+	background-position: -37px 0px;
+}
+.link{
+	background-position: -74px 0px;
+}
+.youtube{
+	background-position: -111px 0px;
+}
+.cloud{
+	background-position: -148px 0px;
+}
+.cloud:hover{
+	background-position: -148px 27px;
+}
+.face:hover{
+	background-position: 0px 27px;
+}
+.twi:hover{
+	background-position: -37px 27px;
+}
+.link:hover{
+	background-position: -74px 27px;
+}
+.youtube:hover{
+	background-position: -111px 27px;
+}
+
+.detail {
+	float:left;
+}
+
+/*---------------------------------- FOOTER ------------------------------------*/
+
+@media(max-width:884px){
+	.detail {
+		float:none;
+		margin:0 auto;
+		max-width: 500px;
+	}
+	
+	.social{
+		float:none;
+		margin:0 auto 22px auto;
+	}
+}
+
+@media(max-width:572px){
+	.facultad {
+		margin-bottom:10px;
+	}
+}
+
+@media(max-width:796px){
+	#page-footer .row1,
+	#page-footer .row2{
+		float:none;
+	}
+	
+	.nova-foot .column {
+		height:220px;
+	}
+}

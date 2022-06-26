@@ -1,0 +1,1015 @@
+
+/*------------------------------------------------------------------ BLOQUES -------------------------------------------------------------------*/
+
+
+/* Bloque Colores */
+
+.block .card-body{
+  background-color:white;
+  border: 1px solid rgba(0,0,0,.125);
+  padding:0px; // agregado Gaspar
+  //max-width:255px;
+}
+
+.block .header .block-controls {
+  position:absolute;
+  right: 12px;
+  top: 14px;
+
+  .action-menu-trigger .fa-cog{
+  	margin-right: 0px;
+  }
+}
+
+.block .header {
+  padding: 12px 10px !important;
+  background-color:#E4E4E4;
+  border-radius: 0;
+  min-height: 14px;
+  box-sizing: content-box;
+}
+
+.block .header h5 {
+  font-size:13px;
+  font-weight: bold;
+}
+
+.editing .block .header h5 {
+  margin-right: 65px;
+}
+
+.block .content {
+	margin:0px;
+	padding:0 12px 10px 12px !important;
+	font-size: 13px;
+}
+
+.block .block_tree li:first-child > .tree_item:first-child{
+	border-top:none !important;
+}
+
+.block .block-hider-hide,
+.block .block-hider-show {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat:no-repeat;
+}
+
+
+.block .block-hider-show {
+  background-image: url([[pix:theme|block_arrow_collapsed]]);
+  width: 9px;
+  height: 13px;
+  padding-left: 9px;
+}
+
+.block .block-hider-hide {
+  background-image: url([[pix:theme|block_arrow_expanded]]);
+  width: 13px;
+  height: 9px;
+  padding-left:13px;
+  margin-right: -4px;
+  margin-top: 2px;
+}
+
+/* Fin Bloque Colores */
+
+
+.block {
+	background-color: transparent;
+	border: none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	padding:0px !important;
+}
+
+/**** MI ESPACIO ***/
+.block_course_overview .header{
+  background-color: $azul-flacso;
+  padding: 6px 10px !important;
+}
+
+.block_course_overview .header h5{
+  font-weight: normal;
+  color: white;
+  font-size: 14px;
+}
+
+/**** BLOQUE COMUNICACION **/
+
+.block.block_gflacso_comunicacion .description{
+	font-size: 12px !important;
+	line-height:24px !important;
+	color: #152f4e !important;
+}
+
+/*------------------- LOGIN ---------------------------*/
+
+#block-region-side-pre .block_login.block .header,
+#block-region-side-pre .block_html.block  .header{
+	padding-bottom:7px;
+}
+
+#title-ingresar{
+  color:#72736e;
+  margin-bottom: 0;
+  margin-top:2px;
+  text-align:left;
+  margin-left:0px;
+  padding:0px;
+}
+
+#page-login-index .loginform .form-label{
+  margin-left:0;
+  padding:0;
+
+}
+
+#page-login-index .loginform .form-input{
+  margin-left:0;
+  padding:0;
+
+}
+
+#page-login-index .borde_inferior{
+  border-bottom: 1px solid #ccc;
+  height: 2px;
+  width:100%;
+  margin-top:4px;
+}
+
+#invitacion-ingresar{
+  margin-top:10px;
+  color:#72736e;
+  font-weight: bold;
+}
+
+#login-inicio{padding:0;}
+
+.loginbox .loginform .form-label label {
+	font-size: 14px;
+	font-weight: bold;
+	color: #72736e;
+	text-align:left;
+}
+
+.loginbox .loginform .form-input input#password,
+.loginbox .loginform .form-input input#username
+ {
+	width: 85%;
+	height: 25px;
+}
+
+.loginbox .loginform .form-input {
+float: left;
+width: 100%;
+}
+
+.loginbox .loginform {
+	width: 76%;
+	margin-left:-10px;
+	padding:0;
+}
+
+#page-login-index #login-incio .rememberpass {
+    margin-left: -2px;
+    text-align: left;
+}
+
+#page-login-index #login-incio .forgetpass{
+  margin-left: -2px;
+  text-align: left;
+}
+
+#olvido-usuario{
+  text-align: left;
+  margin-left:-6px;
+}
+
+#page-login-index .loginbox{margin:0;}
+
+.page-login-index .form-input{
+	width:280px;
+
+}
+
+.forgetpass a {
+  color:#DC582A;
+}
+
+.forgetpass a:hover {
+  color:#DC582A;
+  text-decoration: underline;
+}
+
+#loginbtn {
+  width:80px;
+}
+
+#login-incio .loginform .form-label {
+margin-left: 0;
+padding: 0;
+}
+.loginbox .loginform .form-label {
+text-align: left;
+color: #333;
+}
+.loginbox .loginform .form-label {
+float: left;
+width: initial;
+text-align: right;
+white-space: nowrap;
+direction: rtl;
+}
+
+/*--------------------------- NAVEGACION -------------------------*/
+
+.jsenabled .block_navigation .block_tree .collapsed .tree_item.branch:active {
+background-image: url(/theme/image.php?theme=gflacso&component=core&image=t%2Fcollapsed);
+}
+
+.block_navigation .block_tree .tree_item.hasicon .item-content-wrap {
+	display:inline;
+}
+
+
+.block .header .title .commands, 
+.block_adminblock .content, 
+.block .footer, 
+.block .block_tree li > p > a, 
+.block .block_tree li > p > span {
+	color: #333;
+}
+
+.block_tree li p.active_tree_node a, 
+.block_tree li p.active_tree_node a:hover {
+	color: #dc522a;
+}
+
+.block .block_tree li>p>span:hover, 
+.block .block_tree li>p>a:hover {
+	color: #dc522a;
+	text-decoration:none;
+}
+
+.block_tree .tree_item.branch.mail_root {
+	font-weight:bold;
+	/*font-size:14px;
+	background-image: url([[pix:theme|logos-svg/correo_secretario]]);*/
+}
+
+/* DEPTH: 1 */
+.block_tree .tree_item.branch {
+	background-size:9px 9px;
+	background-position:3px 9px !important;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	margin:-1px 0 0 0 !important;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+.block_navigation .block_tree li.item_with_icon > p img, 
+.block_navigation .block_tree .type_activity > p.tree_item.active_tree_node img, 
+.block_navigation .block_tree li > p.hasicon img,
+.block_settings .block_tree li.item_with_icon > p img {
+	position: initial;
+	margin-top: 1px;
+	margin-right: 5px;
+}
+
+.block_settings .block_tree li.item_with_icon > p img.iconhelp {
+	cursor:pointer;
+}
+
+
+.block_settings p.leaf a img.smallicon, 
+.block_settings p.leaf a img.navicon,
+.block_settings p.leaf a img,
+.block_navigation p.tree_item a img.smallicon {
+
+}
+.block_settings p.leaf a img.iconhelp {
+	display: inline-block;
+}
+
+/* DEPTH: 1 */
+.block_navigation .block_tree li.depth_1 > p.tree_item {
+	padding-left: 21px !important;
+}
+
+/*.block_navigation .block_tree li.item_with_icon .tree_item {
+	padding-left: 3px !important;
+}*/
+
+.block_navigation .block_tree li.depth_1 > p.tree_item {
+	padding-left: 19px !important;
+}
+
+/* DEPTH: 2 */
+.block_navigation .block_tree li.depth_2 ul,
+.block_navigation .block_tree li.depth_3 ul,
+.block_navigation .block_tree li.depth_4 ul,
+.block_navigation .block_tree li.depth_5 ul {
+	padding-left: 0px;
+	margin: 0;
+}
+.block_navigation .block_tree li.depth_2 li .tree_item {
+	padding-left: 43px !important;
+}
+
+.block_navigation .block_tree li.depth_2 li .tree_item {
+	background-position:25px 9px !important;
+}
+
+.block_navigation .block_tree li.depth_2 li.item_with_icon .tree_item {
+	padding-left: 43px !important;
+}
+
+
+/* DEPTH: 3 */
+.block_navigation .block_tree li.depth_2 li li .tree_item {
+	padding-left: 57px !important;
+}
+
+.block_navigation .block_tree li.depth_2 li li .tree_item {
+	background-position:40px 9px !important;
+}
+
+.block_navigation .block_tree li.depth_2 li li.item_with_icon .tree_item {
+	padding-left: 57px !important;
+}
+
+/* DEPTH: 4 */
+.block_navigation .block_tree li.depth_2 li li li .tree_item {
+	padding-left: 73px !important;
+}
+
+.block_navigation .block_tree li.depth_2 li li li .tree_item {
+	background-position:56px 9px !important;
+}
+
+.block_navigation .block_tree li.depth_2 li li li.item_with_icon .tree_item {
+	padding-left: 73px !important;
+}
+
+/* DEPTH: 5 */
+.block_navigation .block_tree li.depth_2 li li li li .tree_item {
+	padding-left: 85px !important;
+}
+
+.block_navigation .block_tree li.depth_2 li li li li .tree_item {
+	background-position:68px 9px !important;
+}
+
+.block_navigation .block_tree li.depth_2 li li li li.item_with_icon .tree_item {
+	padding-left: 89px !important;
+}
+
+/* DEPTH: 6 */
+.block_navigation .block_tree li.depth_6 li .tree_item {
+	padding-left: 101px !important;
+}
+
+.block_navigation .block_tree li.depth_6 li .tree_item {
+	background-position:84px 9px !important;
+}
+
+
+
+/*--------------------------- GESTION -------------------------*/
+
+@media(max-width:1354px){
+	#adminsearchquery  {
+		width: 135px;
+	}
+}
+
+@media(max-width:1104px){
+	#adminsearchquery  {
+		width: 100px;
+	}
+}
+
+@media(max-width:908px){
+	#adminsearchquery  {
+		width: 206px;
+	}
+}
+
+.block_settings .footer {
+	padding:3px 0px;
+}
+
+.block_settings .block_tree li ul {
+	padding-left: 0px;
+	margin: 0;
+}
+
+
+#block-region-side-pre hr {
+	display: none;
+}
+
+/* DEPTH: 2 */
+.block_settings .block_tree li li .tree_item {
+	padding-left: 37px !important;;
+}
+
+.block_settings .block_tree li li .tree_item {
+	background-position:20px 9px !important;
+}
+
+.block_settings .block_tree li li.item_with_icon .tree_item {
+	padding-left: 21px;
+}
+
+/* DEPTH: 3 */
+.block_settings .block_tree li li li .tree_item {
+	padding-left: 53px !important;
+}
+
+.block_settings .block_tree li li li .tree_item {
+	background-position:36px 9px !important;
+}
+
+.block_settings .block_tree li li li.item_with_icon .tree_item {
+	padding-left: 37px;
+}
+
+/* DEPTH: 4 */
+.block_settings .block_tree li li li li .tree_item {
+	padding-left: 69px !important;
+}
+
+.block_settings .block_tree li li  li li .tree_item {
+	background-position:52px 9px !important;
+}
+
+.block_settings .block_tree li li li li.item_with_icon .tree_item {
+	padding-left: 53px;
+}
+
+/*--------------------------------------- BLOQUE: CARTELERA ------------------------------*/
+
+.block_news_items .post{
+	line-height:17px;
+	margin:7px 0;
+	border-top: 1px rgba(0,0,0,.05) solid;
+	padding: 2px;
+}
+
+.block_news_items {s
+
+	.info {
+		font-size:14px;
+	}
+
+	.content ul li {
+
+		.date,
+		.name {
+		    font-size: 11.9px;
+		    display: inline;
+		    color:#333;
+
+		}
+
+		.name {
+			padding-left: 1ex;
+		}
+	}
+}
+
+/*--------------------------------------- BLOQUE: MESA AYUDA ------------------------------*/
+
+.block.block_html .block_mesa ,
+.block.block_html .block_docente,
+.block.block_html .block_opinion,
+.block.block_html .block_comunicacion,
+.block.block_html .block_multimedia,
+.block.block_html .block_mas_accesos,
+.block.block_jmail .content{
+	/*margin: 0 auto;*/
+	max-width: 255px;
+}
+
+
+
+.block.block_html .block_mesa a,
+.block.block_html .block_docente a,
+.block.block_html .block_opinion a,
+.block.block_html .block_comunicacion a,
+.block.block_html .block_multimedia a,
+.block.block_html .block_mas_accesos a,
+.block.block_jmail .footer a{
+	display:block;
+	color:#333;
+	padding: 8px 0 7px 39px;
+	background-size:29px;
+	font-size: 14px;
+	background-repeat:no-repeat;
+	margin-bottom:5px;
+	background-position:0px 3px;
+}
+
+.block.block_html .block_mesa a:hover,
+.block.block_html .block_docente a:hover,
+.block.block_html .block_opinion a:hover,
+.block.block_html .block_comunicacion a:hover,
+.block.block_html .block_multimedia a:hover,
+.block.block_html .block_mas_accesos a:hover,
+.block.block_jmail .footer a:hover{
+	text-decoration:none;
+	color: #dc522a;
+}
+
+.block.block_html .block_mesa a.mesa_ayuda{
+	background-image: url([[pix:theme|logos-svg/mesa_ayuda]]);
+}
+
+
+.svg .block.block_html .block_mesa a.mesa_ayuda{
+	background-image: url([[pix:theme|logos-svg/mesa-de-ayuda]]);
+}
+
+
+.block.block_html .block_mesa a.herramientas{
+	background-image: url([[pix:theme|logos-svg/herramientas]]);
+}
+.svg .block.block_html .block_mesa a.herramientas{
+	background-image: url([[pix:theme|logos-svg/herramientas]]);
+}
+
+
+.block.block_html .block_mesa a.tutorial{
+	background-image: url([[pix:theme|logos-svg/tutorial]]);
+}
+.svg .block.block_html .block_mesa a.tutorial{
+	background-image: url([[pix:theme|logos-svg/tutorial]]);
+}
+
+
+.block.block_html .block_mesa a.mis_datos{
+	background-image: url([[pix:theme|logos-svg/mis_datos]]);
+}
+.svg .block.block_html .block_mesa a.mis_datos{
+	background-image: url([[pix:theme|logos-svg/mis_datos]]);
+}
+
+/*-------------------------------------- BLOQUE: MULTIMEDIA -------------------------*/
+.block.block_html .block_multimedia a.video{
+	background-image: url([[pix:theme|logos-svg/video]]);
+}
+.svg .block.block_html .block_multimedia a.video{
+	background-image: url([[pix:theme|logos-svg/video]]);
+}
+
+.block.block_html .block_multimedia a.conferencia{
+	background-image: url([[pix:theme|logos-svg/mapa-personas]]);
+}
+.svg .block.block_html .block_multimedia a.conferencia{
+	background-image: url([[pix:theme|logos-svg/mapa-personas]]);
+}
+
+.block.block_html .block_multimedia a.musica{
+	background-image: url([[pix:theme|logos-svg/musica]]);
+}
+.svg .block.block_html .block_multimedia a.musica{
+	background-image: url([[pix:theme|logos-svg/musica]]);
+}
+
+.block.block_html .block_multimedia a.audio{
+	background-image: url([[pix:theme|logos-svg/microfono]]);
+}
+.svg .block.block_html .block_multimedia a.audio{
+	background-image: url([[pix:theme|logos-svg/microfono]]);
+}
+
+.block.block_html .block_multimedia a.multimedia{
+	background-image: url([[pix:theme|logos-svg/play_grande]]);
+}
+.svg .block.block_html .block_multimedia a.multimedia{
+	background-image: url([[pix:theme|logos-svg/play_grande]]);
+}
+
+/*--------------------------------------- BLOQUE: MAS ACCESOS ------------------------------*/
+
+.block.block_html .block_mas_accesos a.pent2013{
+	background-image: url([[pix:theme|logos-svg/pent-2]]);
+}
+.svg .block.block_html .block_mas_accesos a.pent2013{
+	background-image: url([[pix:theme|logos-svg/pent-2]]);
+}
+
+.block.block_html .block_mas_accesos a.cursos{
+	background-image: url([[pix:theme|logos-svg/cursos]]);
+}
+.svg .block.block_html .block_mas_accesos a.cursos{
+	background-image: url([[pix:theme|logos-svg/cursos]]);
+}
+
+
+/*--------------------------------------- BLOQUE: TU OPINION ------------------------------*/
+
+.block.block_html .block_opinion a.encuesta{
+	background-image: url([[pix:theme|logos-svg/encuesta_opinion]]);
+}
+.svg .block.block_html .block_opinion a.encuesta{
+	background-image: url([[pix:theme|logos-svg/encuesta_opinion]]);
+}
+
+/*--------------------------------------- BLOQUE: ESPACIO DOCENTE ------------------------------*/
+
+.block.block_html .block_docente a.practica{
+	background-image: url([[pix:theme|logos-svg/sala_practica]]);
+}
+.svg .block.block_html .block_docente a.practica{
+	background-image: url([[pix:theme|logos-svg/sala_practica]]);
+}
+
+.block.block_html .block_docente a.profesores{
+	background-image: url([[pix:theme|logos-svg/espacio_docente]]);
+}
+.svg .block.block_html .block_docente a.profesores{
+	background-image: url([[pix:theme|logos-svg/sala_profes]]);
+}
+
+.block.block_html .block_docente a.comenzaaqui{
+	background-image: url([[pix:theme|logos-svg/comenza_cursar_aqui]]);
+}
+.svg .block.block_html .block_docente a.comenzaaqui{
+	background-image: url([[pix:theme|logos-svg/comenza_cursar_aqui]]);
+}
+
+/*--------------------------------------- BLOQUE: ICONOS PERSONALIZADOS ------------------------------*/
+.block.block_html  a.mayor,
+.block.block_html  a.punto{
+	padding-left:22px;
+}
+
+.block.block_html  a.punto:before,
+.block.block_html  a.punto:hover:before,
+.block.block_html  a.mayor:before,
+.block.block_html  a.mayor:hover:before{
+	color:#333333 !important;
+}
+
+.block.block_html  a.mayor:before{
+	font-family: FontAwesome;
+	content: "\f054";
+	position:relative;
+	left:-12px;
+	
+}
+
+.block.block_html  a.mayor.naranja:before,
+.block.block_html  a.mayor.naranja:hover:before{
+	color:#dc522a !important;
+}
+
+.block.block_html  a.mayor.gris:before,
+.block.block_html  a.mayor.gris:hover:before{
+	color:#ccc !important;
+}
+
+.block.block_html  a.mayor.azul:before,
+.block.block_html  a.mayor.azul:hover:before{
+	color:#005480 !important;
+}
+
+.block.block_html  a.punto:before {
+	font-family: FontAwesome;
+	content: "\f111";
+	position:relative;
+	left:-12px;
+}
+
+.block.block_html  a.punto.naranja:before,
+ .block.block_html  a.punto.naranja:hover:before{
+	color:#dc522a !important;
+}
+
+
+
+.block.block_html  a.punto.gris:before,
+.block.block_html  a.punto.gris:hover:before{
+	color:#ccc !important;
+}
+
+.block.block_html  a.punto.azul:before,
+.block.block_html  a.punto.azul:hover:before{
+	color:#005480 !important;
+}
+
+/*--------------------------------------- BLOQUE: COMUNICACION ------------------------------*/
+
+.block.block_html .block_comunicacion a.cafe{
+	background-image: url([[pix:theme|logos-svg/cafe]]);
+	/*padding-bottom:14px;
+	border-bottom: 1px solid #ccc;*/
+}
+.svg .block.block_html .block_comunicacion a.cafe{
+	background-image: url([[pix:theme|logos-svg/cafe]]);
+}
+
+.block.block_html .block_comunicacion a.foro_naranja{
+	background-size:28px;
+	background-image: url([[pix:theme|logos-svg/foro_nar]]);
+}
+.svg .block.block_html .block_comunicacion a.foro_naranja{
+	background-image: url([[pix:theme|logos-svg/foro_nar]]);
+}
+
+.block.block_html .block_comunicacion a.foro_verde{
+	background-size:28px;
+	background-image: url([[pix:theme|logos-svg/foro_ver]]);
+}
+.svg .block.block_html .block_comunicacion a.foro_verde{
+	background-image: url([[pix:theme|logos-svg/foro_ver]]);
+}
+
+.block.block_html .block_comunicacion a.facebook{
+	background-image: url([[pix:theme|logos-svg/fb_icon_common]]);
+}
+.svg .block.block_html .block_comunicacion a.facebook{
+	background-image: url([[pix:theme|logos-svg/fb_icon_common]]);
+}
+
+.block.block_html .block_comunicacion a.skype{
+	background-image: url([[pix:theme|logos-svg/skype_icon_common]]);
+}
+.svg .block.block_html .block_comunicacion a.skype{
+	background-image: url([[pix:theme|logos-svg/skype_icon_common]]);
+}
+
+.block.block_html .block_comunicacion a.twitter{
+	background-image: url([[pix:theme|logos-svg/tw_icon_common]]);
+}
+.svg .block.block_html .block_comunicacion a.twitter{
+	background-image: url([[pix:theme|logos-svg/tw_icon_common]]);
+}
+
+.block.block_html .block_comunicacion a.blog{
+	background-image: url([[pix:theme|logos-svg/blog_icon_common]]);
+}
+.svg .block.block_html .block_comunicacion a.blog{
+	background-image: url([[pix:theme|logos-svg/blog_icon_common]]);
+}
+
+.block.block_html .block_comunicacion a.fullblog{
+	background-image: url([[pix:theme|logos-svg/fullblog_icon_common]]);
+}
+.svg .block.block_html .block_comunicacion a.fullblog{
+	background-image: url([[pix:theme|logos-svg/fullblog_icon_common]]);
+}
+
+.block.block_html .block_comunicacion a.link.azul,
+.block.block_html .block_comunicacion a.link{
+	background-size:28px;
+	background-image: url([[pix:theme|logos-svg/link_external_azul]]);
+}
+.svg .block.block_html a.link.azul,
+.svg .block.block_html a.link{
+	background-image: url([[pix:theme|logos-svg/link_external_azul]]);
+}
+
+.block.block_html a.link.verde{
+	background-size:28px;
+	background-image: url([[pix:theme|logos-svg/link_external_verde]]);
+}
+.svg .block.block_html a.link.verde{
+	background-image: url([[pix:theme|logos-svg/link_external_verde]]);
+}
+
+.block.block_html a.link.naranja{
+	background-size:28px;
+	background-image: url([[pix:theme|logos-svg/link_external_naranja]]);
+}
+.svg .block.block_html a.link.naranja{
+	background-image: url([[pix:theme|logos-svg/link_external_naranja]]);
+}
+
+
+
+.block.block_html .block_comunicacion .consultas{
+	margin-top:12px;
+	padding-top:10px;
+	padding-bottom:4px;
+	border-top: 1px solid #ccc;
+}
+
+.block.block_html .block_comunicacion a.contacto{
+	background-image: url([[pix:theme|logos-svg/correo_secretario]]);
+}
+.svg .block.block_html .block_comunicacion a.contacto{
+	background-image: url([[pix:theme|logos-svg/correo_secretario]]);
+}
+
+.block.block_html .block_comunicacion .consultas.only{
+	border-top: none;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+.block.block_html .block_comunicacion .social_links{
+	border-top: 1px solid #ccc;
+	padding-top:18px;
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	min-height:32px;
+	padding-bottom:18px;
+}
+
+.block.block_html .block_comunicacion .social_links.only{
+	border-top: none;
+	padding:5px;
+	margin-left:-5px;
+}
+
+.block.block_html .block_comunicacion .social_links a{
+	float:right;
+	padding: 16px;
+	margin-left: 0px;
+	background-size:28px;
+	background-position:0px 0px;
+	background-position: center; 
+	background-repeat: no-repeat;
+	-webkit-transition: all .3s ; /* Safari and Chrome */
+	-moz-transition: all .3s ; /* Firefox */
+	-ms-transition: all .3s ; /* IE 9 */
+	-o-transition: all .3s ; /* Opera */
+	transition: all .3s ;
+}
+
+.block.block_html .block_comunicacion .social_links a.only{
+	float:none;
+	padding: 8px 0 7px 37px;
+	margin-left:0px;
+	background-position:0px center;
+}
+
+
+
+.block.block_html .block_comunicacion .social_links.only a{
+	float:left;
+}
+
+.block.block_html .block_comunicacion .social_links a:hover{
+	background-size:32px;
+}
+
+.block.block_html .block_comunicacion .social_links a.only:hover{
+	background-size:28px;
+}
+
+.block.block_html .block_comunicacion .social_links a span{
+	display:none;
+}
+
+.block.block_html .block_comunicacion .social_links a.facebook{
+	background-image: url([[pix:theme|logos-svg/fb_icon_common]]);
+}
+.svg .block.block_html .block_comunicacion .social_links a.facebook{
+	background-image: url([[pix:theme|logos-svg/fb_icon_common]]);
+}
+.block.block_html .block_comunicacion .social_links.square a.facebook{
+	background-image: url([[pix:theme|logos-svg/fb_icon]]);
+}
+.svg .block.block_html .block_comunicacion .social_links.square a.facebook{
+	background-image: url([[pix:theme|logos-svg/fb_icon]]);
+}
+
+.block.block_html .block_comunicacion .social_links a.skype{
+	background-image: url([[pix:theme|logos-svg/skype_icon_common]]);
+}
+.svg .block.block_html .block_comunicacion .social_links a.skype{
+	background-image: url([[pix:theme|logos-svg/skype_icon_common]]);
+}
+
+.block.block_html .block_comunicacion .social_links a.twitter{
+	background-image: url([[pix:theme|logos-svg/tw_icon_common]]);
+}
+.svg .block.block_html .block_comunicacion .social_links a.twitter{
+	background-image: url([[pix:theme|logos-svg/tw_icon_common]]);
+}
+.block.block_html .block_comunicacion .social_links.square a.twitter{
+	background-image: url([[pix:theme|logos/tw_icon]]);
+}
+.svg .block.block_html .block_comunicacion .social_links.square a.twitter{
+	background-image: url([[pix:theme|logos-svg/tw_icon]]);
+}
+
+
+.block.block_html .block_comunicacion .social_links a.blog{
+	background-image: url([[pix:theme|logos-svg/blog_icon_common]]);
+}
+.svg .block.block_html .block_comunicacion .social_links a.blog{
+	background-image: url([[pix:theme|logos-svg/blog_icon_common]]);
+}
+.block.block_html .block_comunicacion .social_links.square a.blog{
+	background-image: url([[pix:theme|logos-svg/blog_icon]]);
+}
+.svg .block.block_html .block_comunicacion .social_links.square a.blog{
+	background-image: url([[pix:theme|logos/blog_icon]]);
+}
+
+.block.block_html .block_comunicacion .social_links a.fullblog{
+	background-image: url([[pix:theme|logos-svg/fullblog_icon_common]]);
+}
+.svg .block.block_html .block_comunicacion .social_links a.fullblog{
+	background-image: url([[pix:theme|logos-svg/fullblog_icon_common]]);
+}
+
+
+/*------------------------------ BLOQUE: USUARIO IDENTIFICADO -----------------*/
+
+.block.block_myprofile img.profilepicture {
+	height: 60px ;
+	width: 60px ;
+	margin-right: 20px;
+}
+
+
+.block.block_myprofile	.myprofileitem.picture {
+	float:left;
+}
+
+
+.block.block_myprofile .myprofileitem {
+	font-size: 0.9em;
+}
+/******************************************* BLOQUE: TODOS ***********************************/
+#block-region-side-post .content {
+	font-size:14px;
+}
+
+.block .content .userpicture {
+width: 35px;
+height: 35px;
+}
+
+/******************************************* BLOQUE: COMENTARIOS ***********************************/
+
+.block .content .comment-message .picture {
+padding-right: 10px;
+padding-bottom: 2px;
+width: 50px;
+height: 50px;
+}
+
+.block .content .comment-message .comment-message-meta {
+padding-right: 15px;
+}
+
+.block .content .comment-message .picture .userpicture {
+width: 50px;
+height: 50px;
+}
+.block .content .comment-message .text {
+clear:both;
+}
+
+/******************************************* BLOQUE: JMAIL ***********************************/
+.block.block_jmail .footer a{
+	background-image: url([[pix:theme|logos-svg/correo_secretario]]);
+}
+.svg .block.block_jmail .footer a{
+	background-image: url([[pix:theme|logos-svg/correo_secretario]]);
+}
+
+.block.block_jmail .footer {
+	padding-left:0px;
+}
+
+/*************************** TABLA DE CONTENIDOS ****************************************/
+.path-mod-book {
+
+	.book_toc_none,
+	.block_book_toc,
+	.book_toc_latin,
+	.book_toc_roman,
+	.book_toc_numbered,
+	.book_toc_alphanumbered,
+	.book_toc_indented {
+
+		ul{
+			margin: 0;
+		    padding-left: 0;
+		    padding-right: 0;
+
+		    ul {
+		    	margin-left: 20px;
+		    }
+
+		    li {
+			    clear: both;
+			    list-style: none;
+			    margin-top: .5em;
+			}
+		}
+	}
+
+}

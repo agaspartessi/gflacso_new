@@ -1,0 +1,110 @@
+
+
+/*-------------------------- PESTAÑAS: EDITAR ------------------*/
+
+.nav-tabs {
+	border-bottom:none;
+}
+
+#region-main .nav-tabs li:hover,
+#region-main .nav-tabs li {
+	margin:0px;
+	padding:0px;
+	border: none;
+}
+
+.format-onetopic .onetopic .tab_content {
+  padding:0px;
+}
+
+#region-main .nav-tabs > li > a{
+	border: 1px solid #ddd;
+	color:#005580;
+	background-color: #ddd;
+	-webkit-border-radius: 8px 8px 0 0;
+	-moz-border-radius: 8px 8px 0 0;
+	border-radius: 8px 8px 0 0;
+  margin-bottom:3px;
+  margin-left:2px;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#region-main .nav-tabs > li > a + img {
+	padding-bottom: 2px;
+}
+
+#region-main .nav-tabs > li> a:hover,
+#region-main .nav-tabs > .active>a,
+#region-main .nav-tabs > .active>a:hover,
+#region-main .nav-tabs > li >a.active{
+	color:#f1f2ec;
+	background-color: $azul-flacso;
+	border-color: $azul-flacso;
+	padding-bottom: 18px;
+	margin-top: -10px ;
+}
+
+/*
+.nav-tabs li:hover,
+.nav-tabs .active,
+.nav-tabs .active:hover {
+	padding-bottom:0px;
+}*/
+
+/*
+.nav-tabs .active>a,
+.nav-tabs  .active>a:hover,
+.nav-tabs li a:hover {
+	-webkit-border-radius: 8px 8px 0 8px;
+	-moz-border-radius: 8px 8px 0 8px;
+	border-radius: 8px 8px 0 8px;
+}
+*/
+
+.nav-tabs .active>a,
+.nav-tabs  .active>a:hover {
+	/*border-color:#dc522a;
+	color:#f1f2ec;*/
+	font-weight: bold;
+	cursor: default;
+	/*background-color: #dc522a;
+	padding-bottom:11px;
+	margin-bottom:0px;*/
+}
+
+/* PESTAÑAS INACTIVAS CURSO */
+#page-course-view-onetopic .nav-tabs .disabled {
+	/*opacity: 0.5;*/
+	color: #555 !important;
+	font-weight: normal;
+	background-color:#eaeaea;
+	border-color:#eaeaea;
+}
+
+#page-course-view-onetopic .nav-tabs .disabled:hover,
+#page-course-view-onetopic .nav-tabs .active .disabled,
+#page-course-view-onetopic .nav-tabs .active .disabled:hover{
+	background-color:#f9ab7d;
+	border-color:#f9ab7d;
+}
+
+
+#page-course-view-onetopic .nav-tabs .disabled:hover {
+	cursor:pointer;
+}
+
+
+#page-course-view-onetopic .nav-tabs .only_read:hover {
+	cursor:not-allowed;
+}
+
+
+#page-course-view-onetopic .nav-tabs .active .disabled:hover {
+	cursor:default;
+}

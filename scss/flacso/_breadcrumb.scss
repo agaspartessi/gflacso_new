@@ -1,0 +1,145 @@
+/*-------------------------------------- Breadcrumb ------------------------------------*/
+
+@media(max-width:767px){
+	#page-navbar .container-fluid  {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+
+#page-site-index #page-navbar .breadcrumb,
+.notloggedin .breadcrumb {
+	display:none;
+}
+
+#page-navbar {
+  background-color: #152f4e;
+  width:100%;
+}
+
+#page-navbar .breadcrumb {
+	background-color: #152f4e;
+}
+
+/*#page-navbar {
+	background-color: #dc522a;
+}
+
+#page-navbar .breadcrumb {
+	background-color: #dc522a;
+}*/
+
+#page-navbar .breadcrumb br{
+	display:none;
+}
+
+#page-navbar {
+  .breadcrumb {
+    li a,
+    span,
+    .breadcrumb-item {
+      color: #fff;
+    }
+  }
+}
+
+#page-navbar .breadcrumb li a:hover {
+	text-decoration:none;
+}
+
+#page-navbar a.dimmed_text,
+#page-navbar a.dimmed_text:link,
+#page-navbar a.dimmed_text:visited,
+#page-navbar .breadcrumb li a:last-child,
+#page-navbar .breadcrumb li span:last-child{
+	font-weight:bold;
+}
+
+#page-navbar .breadcrumb>li>.divider {
+	color: #fff;
+}
+
+#page-navbar .breadcrumb-nav {
+	margin: 0;
+}
+
+#page-navbar .breadcrumb {
+	padding:8px 0;
+}
+
+#page-navbar .breadcrumb>li {
+	text-shadow: none;
+}
+
+#page-navbar{ /*Barra de navegaciòn migas de pan sin borde */
+padding: 0px 0;
+min-height: 36px;
+}
+
+/*#page-navbar{
+padding: 17px 0;
+min-height: 36px;
+}*/
+
+#page-navbar input[type="submit"]{
+margin:0;
+}
+
+.notloggedin #page-navbar .breadcrumb-button {
+	display:none;
+}
+
+#page-navbar  .breadcrumb-button input{
+	background-color: #fff;
+	color: #333;
+	background-image:none;
+	border-radius:0px;
+	border:5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	font-size:12px;
+}
+
+#page-navbar  .breadcrumb-button input:hover{
+	background-color: #e6e6e6;
+	border:5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+}
+
+#page-navbar  .breadcrumb-button input:focus{
+	background-color: #fff;
+	border:5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.invisiblefieldset #searchforums {
+	margin-left: 10px !important;
+}
+
+.invisiblefieldset.coursesearchbox  input[type="submit"],
+.wikisearch .invisiblefieldset  input[type="submit"] {
+	margin-left: 10px !important;
+}
+
+.invisiblefieldset.coursesearchbox input[type=text],
+.wikisearch .invisiblefieldset input[type=text]{
+	margin-bottom: 0!important;
+}
+
+#page-navbar fieldset.coursesearchbox label {
+	color:#FFF;
+}
+
+#region-main .invisiblefieldset.coursesearchbox input[type="submit"],
+#region-main .wikisearch .invisiblefieldset input[type="submit"] {
+	margin-top:10px;
+}
+
+
+/* MARCAS */
+#big-tag-cloud-box {
+	width:auto;
+	max-width:600px;
+}

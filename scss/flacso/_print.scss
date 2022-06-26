@@ -1,0 +1,49 @@
+
+/* FLACSO, no mostrar cuando imprimimos */
+@media print
+{
+	.no-print, .no-print *
+        {
+		display: none !important;
+        }
+
+
+    .videoresponsive,
+    .videoresponsive + br + em,
+    .videoresponsive + em,
+    .videoresponsive + br + strong,
+    .videoresponsive + strong {
+		display: none !important;
+    }
+
+    div > iframe,
+    div > iframe + br + em,
+    div > iframe + em,
+    div > iframe + br + strong,
+    div > iframe  + strong {
+    	display:none;
+    }
+	
+}
+
+/* FLACSO, no mostrar tampoco en la vista de impresion */
+#page-mod-book-print.no-print, 
+#page-mod-book-print.no-print * {
+	display: none !important;
+    }
+
+#page-mod-book-print .videoresponsive,
+#page-mod-book-print .videoresponsive + br + em,
+#page-mod-book-print .videoresponsive + em,
+#page-mod-book-print .videoresponsive + br + strong,
+#page-mod-book-print .videoresponsive + strong {
+	display: none !important;
+}
+
+#page-mod-book-print div > iframe,
+#page-mod-book-print div > iframe + br + em,
+#page-mod-book-print div > iframe + em,
+#page-mod-book-print div > iframe + br + strong,
+#page-mod-book-print div > iframe  + strong {
+	display:none;
+}

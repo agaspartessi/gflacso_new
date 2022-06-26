@@ -1,0 +1,149 @@
+{{!
+    This file is part of Moodle - http://moodle.org/
+
+    Moodle is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Moodle is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+}}
+{{!
+    @template theme_gflacso_new/columns2
+
+    Admin time setting template.
+
+    Boost 2 column layout template.
+
+    Context variables required for this template:
+    * sitename - The name of the site
+    * output - The core renderer for the page
+    * bodyattributes - attributes for the body tag as a string of html attributes
+    * sidepreblocks - HTML for the blocks
+    * hasblocks - true if there are blocks on this page
+    * navdraweropen - true if the nav drawer should be open on page load
+    * regionmainsettingsmenu - HTML for the region main settings menu
+    * hasregionmainsettingsmenu - There is a region main settings menu on this page.
+
+    Example context (json):
+    {
+        "sitename": "Moodle",
+        "output": {
+            "doctype": "<!DOCTYPE html>",
+            "page_title": "Test page",
+            "favicon": "favicon.ico",
+            "main_content": "<h1>Headings make html validators happier</h1>"
+         },
+        "bodyattributes":"",
+        "sidepreblocks": "<h2>Blocks html goes here</h2>",
+        "hasblocks":true,
+        "navdraweropen":true,
+        "regionmainsettingsmenu": "",
+        "hasregionmainsettingsmenu": false
+    }
+}}
+{{> theme_gflacso_new/head }}
+
+<body {{{ bodyattributes }}}>
+
+<div id="page-wrapper columns2" >
+
+    {{{ output.standard_top_of_body_html }}}
+
+    {{> theme_gflacso_new/navbar }}
+
+    <div id="page" class="container-fluid">
+        {{{ output.full_header }}}
+
+
+
+        {{#is_frontpage}}
+	      <div class="banner_front">
+	      	<div class="container-fluid">
+	        	<h1>Bienvenidxs a <strong>FLACSO Virtual.</strong> Campus Sede Argentina</h1>
+	        </div>
+	      </div>
+	    {{/is_frontpage}}
+
+        <div id="page-content" class="row pb-3">
+            <div id="region-main-box" class="col-12">
+                
+                {{#hasregionmainsettingsmenu}}
+                <div id="region-main-settings-menu" class="d-print-none {{#hasblocks}}has-blocks{{/hasblocks}}">
+                    <div> {{{ output.region_main_settings_menu }}} </div>
+                </div>
+                {{/hasregionmainsettingsmenu}}
+                <section id="region-main" {{#hasblocks}}class="has-blocks mb-3"{{/hasblocks}} aria-label="{{#str}}content{{/str}}">
+
+                    {{#hasregionmainsettingsmenu}}
+                        <div class="region_main_settings_menu_proxy"></div>
+                    {{/hasregionmainsettingsmenu}}
+
+                    {{#is_dashboard}}
+                   <div></div>
+                    {{/is_dashboard}}
+
+                    {{{ output.course_content_header }}}
+                    {{{ output.main_content }}}
+                    {{#slider}}
+                        <font size="1" color="#f2f2f2"><h6 aria-label="Slider de videos de interés" >Slider de videos de interés</h6> </font>
+                        {{{ slider }}}
+                    {{/slider}}
+                    {{#is_dashboard}}
+                      <div></div>
+                         <link rel="stylesheet" type="text/css" href="https://moodle-dev.flacso.org.ar/theme/gflacso/estilosv/columnasbienvenidos.css" />
+<div class="some-page-wrapper">
+<div class="rowbienvenidos">
+<div class="columnbienvenidos">
+<div style="padding: 10px; width: auto;">
+<div style="background: #fff; border-radius: 15px 15px 15px 15px; padding: 10px; border-style: solid; border-width: 1px; border-color: #ccc;" aria-label="Twitter de Flacso Argentina"><a class="twitter-timeline" data-height="300" href="https://twitter.com/FLACSOVirtualAR?ref_src=twsrc%5Etfw">Twitter de Flacso Virtual</a>
+<script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
+</div>
+</div>
+</div>
+<div class="columnbienvenidos">
+<div style="padding: 10px; width: auto;">
+<div style="background: #fff; border-radius: 15px 15px 15px 15px; padding: 10px; border-style: solid; border-width: 1px; border-color: #ccc;" >
+<div class="fb-page" data-href="https://www.facebook.com/flacsovirtual/" data-tabs="timeline" data-width="500" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" aria-label="Facebook de Flacso Virtual">
+<blockquote cite="https://www.facebook.com/flacsoarg/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/flacsovirtual/">FLACSO Virtual (sitio oficial)</a></blockquote>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="fb-root"></div>
+<script src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&amp;version=v5.0" type="text/javascript"></script>
+                    {{/is_dashboard}}
+                    
+                    {{{ output.activity_navigation }}}
+                    {{{ output.course_content_footer }}}
+
+                </section>
+                {{#hasblocks}}
+                <section data-region="blocks-column" class="d-print-none" aria-label="{{#str}}blocks{{/str}}">
+                    {{{ sidepreblocks }}}
+                </section>
+                {{/hasblocks}}
+            </div>
+        </div>
+    </div>
+    {{{ output.standard_after_main_region_html }}}
+    {{> theme_gflacso_new/nav-drawer }}
+    {{> theme_gflacso_new/footer }}
+</div>
+
+</body>
+</html>
+{{#js}}
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+{{/js}}

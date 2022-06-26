@@ -1,0 +1,861 @@
+/**** GENERAL ****/
+.path-mod {
+	#page-header {
+		.page-context-header {
+			display:none;
+		}
+	}
+}
+
+/******************************** MODULO: Glosario *************************************/;
+
+
+a.autolink.glossary, 
+a.autolink.glossary:visited, 
+a.autolink.glossary:hover, 
+a.autolink.glossary:active {
+    color: #d62d00;
+    font-style: italic;
+}
+/*
+.moodle-dialogue-confirm .confirmation-dialogue .confirmation-message:focus {
+	outline: none;
+}*/
+
+
+/******************************************* MODULO: JMAIL ***********************************/
+
+#jmailui {
+	background-color:white;
+}
+
+.yui-skin-sam .yui-dialog .ft span button {
+    color: white;
+    background-color: #005581;
+    padding: 4px 12px;
+    margin: 5px
+}
+
+#jmailleft div span button,
+#contact_list_filter div span button,
+#selbuttons input[type="button"],
+#newemailpanel_c #newemailpanel #newemailform button,
+#preferencespanel .yui3-widget-ft button{
+	background-color: #dc522a;
+	color: #fff;
+	background-image: none;
+	text-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: 1px solid #ccc;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+	margin: 0 5px 10px 0px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#jmailleft div span button:hover,
+ #contact_list_filter div span button:hover,
+ #selbuttons input[type="button"]:hover,
+ #newemailpanel_c #newemailpanel #newemailform button:hover,
+ #preferencespanel .yui3-widget-ft button:hover{
+	background-color: #c93806;
+	color: #fff;
+	background-image: none;
+}
+
+ #preferencespanel .yui3-widget-hd {
+	padding: 0 10px;
+	font-size: 93%;
+	line-height: 2;
+	font-weight: bold;
+	color: #000;
+	background: url(/theme/yui_image.php?file=2.9.0/sprite.png) repeat-x 0 -200px;
+}
+
+#subscription{
+width: 320px;
+}
+
+#preferencespanel .yui3-button-close:before{
+content:initial;
+}
+ 
+#preferencespanel .yui3-button-close{
+font-size:0px;
+background: url(/theme/yui_image.php?file=2.9.0/sprite.png) no-repeat 0 -300px;
+width: 25px;
+height: 15px
+}
+ 
+#preferencespanel .yui3-widget-hd .yui3-widget-buttons {
+	padding:5px;
+}
+ 
+ #preferencespanel .yui3-widget-ft{
+  background-color:transparent;
+ }
+ 
+
+.path-blocks-jmail .yui-button,
+.path-blocks-jmail .yui-button .first-child{
+	border:none;
+	background-image:none;
+	margin:0px;
+}
+
+.path-blocks-jmail #action_buttons .icon {
+	display:none;
+}
+
+.path-blocks-jmail #action_buttons button {
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.path-blocks-jmail #action_buttons {
+	padding:5px;
+}
+
+#jmailleft div span .icon{
+	margin: 4px 0px 0px 4px;
+}
+
+#jmailleft #search_bar #input_search {
+	width:85%;
+	background-position: 5px center;
+}
+
+#jmailui #mymailboxes .bd.yui-menu-body-scrolled{
+	max-height:160px !important;
+}
+
+#contact_list_filter{
+	padding:5px;
+}
+
+#firstnamefilter{
+	margin-bottom: 10px;
+}
+
+#firstnamefilter a,
+#lastnamefilter a {
+display: inline-block;
+padding: 5px;
+margin: 2px;
+background: #ccc;
+color: #000;
+}
+
+#firstnamefilter a:hover,
+#lastnamefilter a:hover {
+	background: #ccc;
+	color: #fff;
+	text-decoration:none;
+}
+#jmailleft #input_search {
+	width: 100px;
+}
+
+#page-blocks-jmail-mailbox #contact_list_users .userpicture{
+  width: 35px;
+  margin-right:4px;
+  margin-left:4px;
+}
+
+#contact_list_users .fullname {
+	line-height: 15px;
+	float:none;
+	margin-left:59px;
+}
+
+#page-blocks-jmail-mailbox #contact_list_users .contact{
+	background-color:transparent;
+}
+
+#page-blocks-jmail-mailbox #contact_list_users .fullname input {
+  font-size: 15px;
+  padding:0px;
+  height: 20px;
+}
+
+#mail_header .mail_label {
+  height: 18px;
+}
+
+
+
+@media(min-width:970px){
+	/* 970 menu contraido */
+	#mailarea .yui-dt-scrollable .yui-dt-bd{
+		overflow-x: hidden;
+	}
+}
+
+@media(min-width:1250px){
+	/* 1250 menu contraido */
+	.drawer-open-left #mailarea .yui-dt-scrollable .yui-dt-bd{
+		overflow-x: hidden;
+	}
+}
+
+/*--------------------------------------------- JMAIL: MENSAJE NUEVO -----------------------*/
+
+#newemailpanel_c #newemailpanel{
+	width:600px !important;
+	font-size:13px;
+	height: 820px !important;
+}
+
+#newemailpanel .filemanager .fp-content{
+	max-height: 157px;
+}
+
+#page-blocks-jmail-mailbox .mform .felement.feditor iframe {
+	max-height:100px;
+}
+
+#page-blocks-jmail-mailbox .mform .fitem #composetolist,
+#page-blocks-jmail-mailbox .mform .fitem #composecclist,
+#page-blocks-jmail-mailbox .mform .fitem #composebcclist
+ {
+	line-height:20px;
+	margin: -5px 0 5px 0;
+	max-height:40px;
+	overflow-y:auto;
+}
+
+#page-blocks-jmail-mailbox .mform input {
+	margin-bottom:5px;
+}
+
+#newemailpanel_c #newemailpanel #newemailform.mform .fitem .felement #sendbutton{
+	position:absolute;
+	bottom:10px;
+}
+
+#newemailpanel_c #newemailpanel #newemailform.mform .fitem .felement #savebutton{
+	position:absolute;
+	bottom:10px;
+	margin-left: 70px;
+}
+
+#newemailpanel_c #newemailpanel #newemailform.mform .fitem {
+margin-bottom:0px;
+}
+
+#newemailpanel_c #newemailpanel #newemailform #newemailformremote fieldset{
+margin-bottom:1em;
+}
+
+#newemailpanel_c #newemailpanel #newemailform.mform .fitem .fitemtitle {
+width: 10%;
+text-align: right;
+float: left;
+}
+
+#newemailpanel_c #newemailpanel #newemailform.mform .fitem .fitemtitle br {
+display:none;
+}
+
+#newemailpanel_c #newemailpanel #newemailform.mform .fitem .felement {
+border-width: 0;
+width: 86%;
+margin-left: 11%;
+}
+
+#newemailpanel_c #newemailpanel #newemailform.mform .fitem .felement.feditor  .mceLayout{
+	clear:none;
+}
+
+#newemailpanel_c #newemailpanel #newemailform.mform .fitem .felement.ffilemanager  .fp-restrictions{
+	text-align: left;
+	padding-top: 8px;
+}
+
+#newemailpanel_c #newemailpanel #newemailform.mform .fitem .felement.buttons {
+  height: 50px;
+  position: relative;
+}
+
+#newemailformremote .form-group.row.fitem  {
+  margin-left: 0px;
+
+    .col-md-3 {
+      width: 10% !important;
+      text-align: right;
+      float: left;
+      flex: none;
+    }
+
+    .col-md-9  {
+      margin-left: 1% !important;
+      padding:0px;
+    }
+}
+	
+/*----------------- FORO --------------------------*/
+.forumpost .row .left {
+font-size: 0px;
+color:transparent;
+}
+	
+/*----------------- FORO AVANZADO --------------------------*/
+.path-mod-hsuforum  #notice .buttons{
+	float:none;
+}
+
+.block_flexpagemod_hsuforum *, 
+.block_flexpagemod_hsuforum *:before, 
+.block_flexpagemod_hsuforum *:after, 
+.path-mod-hsuforum *, 
+.path-mod-hsuforum *:before, 
+.path-mod-hsuforum *:after{
+	-moz-box-sizing: initial;
+	-webkit-box-sizing: initial; 
+	box-sizing: initial; 
+}
+
+.block_flexpagemod_hsuforum #page-content *, 
+.block_flexpagemod_hsuforum #page-content *:before, 
+.block_flexpagemod_hsuforum #page-content *:after, 
+.path-mod-hsuforum #page-content *, 
+.path-mod-hsuforum #page-content *:before, 
+.path-mod-hsuforum #page-content *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
+.path-mod-hsuforum #page-content .moodleSkin .mceToolbar a span.mceIcon img {
+	padding: 0;
+    text-align: center;
+    margin: 0px;
+    margin-top: 7px;
+    display:inline-block;
+}
+
+.path-mod-hsuforum #page-content .moodleSkin .mceToolbar a span.mceIcon {
+	text-align:center;
+}
+
+.path-mod-forum .discussionsubscription>a>img {
+	width:16px;
+}
+
+.path-mod-forum .discussionsubscription {
+	margin-top: -2px;
+}
+
+.path-mod-forum .singleselect #mode {
+	margin-top: 8px;
+}
+
+.path-mod-forum .discussion-list .discussion .custom-switch .custom-control-input + label:before {
+	display:none;
+}
+
+.path-mod-forum .discussion-list .discussion .custom-switch .custom-control-input + label:after {
+	font-family: FontAwesome;
+	content: "\f2b7";
+	cursor:pointer;
+}
+
+.path-mod-forum .discussion-list .discussion .custom-switch .custom-control-input:checked + label:after{
+	font-family: FontAwesome;
+	content: "\f003";
+}
+
+
+/*----------------- MODULO: CALENDARIO ---------------------------------*/
+
+.path-calendar .maincalendar .calendar-controls .previous,
+.path-calendar .maincalendar .calendar-controls .next {
+	width:15%;
+}
+
+.calendar-controls .arrow_link .arrow_text{
+	display:none;
+}
+
+.calendar-controls .arrow_link .arrow{
+	display:none;
+}
+
+element.style {
+}
+.path-calendar .maincalendar .calendar-controls .current {
+width: 70%;
+}
+
+.path-calendar .cal_courses_flt{
+	clear:both;
+}
+
+.calendar-controls .arrow_link{
+	visibility: hidden;
+	margin-top:20px;
+}
+.calendar-controls .arrow_link.previous:before{
+	visibility: visible;
+	content:"\f053";
+	font-family: "FontAwesome";
+	color: #333;
+}
+
+.calendar-controls .arrow_link.next:after{
+	visibility: visible;
+	content:"\f054";
+	font-family: "FontAwesome";
+	color: #333;
+}
+
+.minicalendar td.weekend {
+color: #ccc !important;
+}
+
+
+.calendar_event_course,
+.calendar_event_user,
+.calendar_event_global {
+	background-color: #e4e4e4; //background-color: #f9ab7d;
+}
+
+
+.ical-link {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #f60;
+    padding: 0 5px;
+    color: #fff;
+    border-top: 1px solid #f93;
+    border-left: 1px solid #f93;
+    border-bottom: 1px solid #013;
+    border-right: 1px solid #013;
+}
+
+/*----------------- MODULO: CALENDARIO, NUEVO EVENTO ---------------------------------*/
+.path-calendar #region-main .fitemtitle{
+	float:none;
+	text-align:left;
+}
+
+.path-calendar #region-main .felement{
+	margin-left:0px;
+}
+
+/*---------------- MODULO: CHAT --------------------------------------*/
+
+.yui-skin-sam .yui-layout-unit-right,
+.path-mod-chat .yui-layout-unit-bottom {
+	background-color: #ccc !important;
+}
+
+.path-mod-chat #chat-userlist,
+.path-mod-chat  #chat-input-area,
+.path-mod-chat  #chat-input-area table.generaltable,
+.path-mod-chat  #chat-input-area table.generaltable td.cell {
+	background-color: #f1f2ec !important;
+}
+
+.path-mod-chat .yui-layout-unit-bottom{
+	border-top:0px;
+}
+
+
+.yui-skin-sam .yui-layout .yui-layout-unit-bottom div.yui-layout-bd {
+	height:38px !important;
+}
+
+.path-mod-chat #users-list {
+padding: 3px;
+}
+
+/*---------------- MODULO: QUIZ -------------------------------*/
+#page-mod-quiz-edit .questionbankwindow.block div.header{
+	background-color: #002e4d !important;
+}
+
+/****************************** CALIFICAR *******************************/
+
+/*table#user-grades .header_container{
+	line-height:12px;
+}
+
+table#user-grades .header_container .itemicon[title="Intercambio"],
+	position:relative;
+	top:2px;
+}
+
+table#user-grades th.lastcol .itemicon{
+	float:none !important;
+}*/
+
+table#user-grades .heading_name_row.r1 th:last-child .header_container {
+	width:110px !important;
+}
+
+.path-mod-assign #region-main table{
+	table-layout: initial;
+}
+
+.path-mod-assign table .header a[aria-expanded="false"]{
+display:block;
+min-width:16px;
+}
+
+.path-mod-assign [data-region="grade-panel"],
+.path-mod-assign [data-region="review-panel"] {
+    top: 137px;
+}
+
+.path-mod-assign [data-region="grade-panel"] [data-region="attempt-chooser"] {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 150px;
+    background-color: #152f4e;
+    color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    padding: 4px 12px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.path-mod-assign [data-region="grade-panel"] [data-region="attempt-chooser"]:hover {
+    text-decoration: none;
+    background-color: #002e4d;
+}
+
+.path-mod-assign .row-fluid [data-region="user-info"] > h4:first-child {
+	height:90px;
+}
+
+.path-mod-assign [data-region="user-info"],.path-mod-assign [data-region="grading-navigation-panel"] {
+	height:auto;
+}
+
+.path-mod-assign {
+
+  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-weight: 400;
+    line-height: 1;
+    color: #999;
+  }
+
+  h4 {
+    font-weight: 700;
+    small {
+      font-size: 15px;
+    }
+  }
+
+  em {
+    line-height: 1;
+  }
+}
+
+
+.path-mod-assign [data-region="user-filters"]:before{
+    font-family: FontAwesome;
+    content: "\f0b0";
+    display: inline-block;
+    font-size: 46px;
+    color: #dc522a;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.path-mod-assign [data-region="user-filters"] i{
+  display:none;
+}
+
+.path-mod-assign [data-region="user-filters"]:hover:before{
+	color:#c93806;
+}
+
+.path-mod-assign [data-region="user-count"] {
+	margin-top: 12px;
+  display: inline-block;
+}
+
+.path-mod-assign [data-region="user-filters"] img{
+  display:none;
+}
+
+.path-mod-assign [data-region="grade-panel"] #id_attemptsettings .fcontainer {
+    display: table;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.path-mod-assign [data-region="grade-panel"] .mform #id_attemptsettings .fitem {
+    display: table-row;
+}
+
+.path-mod-assign #page-content [data-region="grade-panel"] .mform:not(.unresponsive) #id_attemptsettings .fitem .col-md-3, 
+.path-mod-assign #page-content [data-region="grade-panel"] .mform:not(.unresponsive) #id_attemptsettings .fitem .col-md-9 {
+    display: table-cell;
+    float: none;
+    border-top: 1px solid #ddd;
+    padding: 8px 0;
+    width: 100%;
+}
+
+.path-grade-report-grader .gradeparent .user.cell,
+.path-grade-report-grader .gradeparent .grade.cell  {
+	font-size:15px;
+}
+
+.path-grade-report-grader .gradeparent .heading .cell,
+.path-grade-report-grader .gradeparent .avg .cell {
+	font-size:16px;
+}
+
+/*--------------------- MODULO: CUESTIONARIO ---------------------*/
+.que .formulation {
+	background-color: #f9ab7d;
+	border-color: #dc522a;
+}
+
+#page-mod-questionnaire-complete .notifyproblem, 
+#page-mod-questionnaire-preview .notifyproblem {
+	color: #ec1858;
+	border-color: #930033;
+	border-width:1px;
+	background-color: #f2dede;
+}
+
+#page-mod-questionnaire-complete .message, 
+#page-mod-questionnaire-preview .message, 
+#page-mod-questionnaire-complete .thankbody, 
+#page-mod-questionnaire-complete .thankhead {
+	color: #437226;
+	border-color: #75b443;
+	border-width:1px;
+	background-color: #b0ce8e;
+}
+
+
+
+/*------------------------------------- PERFIL USUARIO ------------------------------*/
+
+.path-user .userprofilebox .descriptionbox .list {
+	margin: 0 0 20px 0;
+}
+
+.path-user .userprofilebox .descriptionbox .description {
+	margin: 0;
+}
+
+.path-user .profilepicture {
+	float:left;
+}
+
+.path-user .descriptionbox {
+	margin-left:110px;
+}
+
+.path-user .userprofile dl.list dt {
+	clear:none;
+	text-align: left;
+	width: 30%;
+}
+
+.path-user .userprofile dl.list dd {
+	margin-left: 30%;
+}
+
+
+/** MODULO: MAIL **/
+
+.path-local-mail #local_mail_recipients_form .yui3-widget-hd,
+.path-local-mail #local_mail_form_new_label .yui3-widget-hd {
+	background:#dc522a;
+}
+
+.path-local-mail #local_mail_recipients_form .yui3-widget-ft,
+.path-local-mail #local_mail_form_new_label .yui3-widget-ft {
+	background:#FFF;
+}
+
+.path-local-mail #local_mail_form_new_label .label_form {
+	width:100%;
+}
+
+.path-local-mail .yui3-button,
+.path-local-mail input[type="button"],
+.path-local-mail input[type="submit"] {
+	background-color: #dc522a;
+	color: #fff;
+	background-image:none;
+	text-shadow:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: 1px solid #ccc;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+	margin: 0 5px 10px 0px;
+	-webkit-border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	border-radius: 4px !important;
+	filter: alpha(opacity=100);
+	opacity:1;
+}
+
+.path-local-mail .yui3-button[disabled],
+.path-local-mail input[type="button"][disabled],
+.path-local-mail input[type="submit"][disabled] {
+	filter: alpha(opacity=65);
+	opacity:0.65;
+	border: 1px solid #ccc;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+	-webkit-border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	border-radius: 4px !important;
+}
+
+.path-local-mail .yui3-button:hover,
+.path-local-mail input[type="button"]:hover,
+.path-local-mail input[type="submit"]:hover{
+	background-color: #c93806;
+	color: #fff;
+	background-image:none;
+	cursor:pointer;
+	border: 1px solid #ccc;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+	-webkit-border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	border-radius: 4px !important;
+}
+
+.path-local-mail .yui3-button[disabled]:hover,
+.path-local-mail input[type="button"][disabled]:hover,
+.path-local-mail input[type="submit"][disabled]:hover {
+	cursor:not-allowed;
+	background-color: #dc522a;
+	border: 1px solid #ccc !important;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf !important;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25) !important;
+}
+
+
+.path-local-mail .yui3-button:focus,
+.path-local-mail input[type="button"]:focus,
+.path-local-mail input[type="submit"]:focus{
+	background-color: #dc522a;
+	color: #fff;
+}
+
+.path-local-mail .yui3-widget-hd .yui3-button {
+	width:16px;
+	height:16px;	
+	font-size: 0px;
+	border: none;
+}
+
+.path-local-mail .yui3-widget-hd .yui3-button::before {
+	font-family:FontAwesome;
+	content:"\f00d" !important;
+	font-size: 18px  !important;;
+	margin-top: 2px  !important;;
+}
+
+
+
+.path-local-mail .mail_recipient_actions input,
+.path-local-mail .mail_all_recipients_actions input {
+	background-color:#dc522a;
+	color: #fff;
+	border:none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.path-local-mail .mail_recipient_actions input:hover,
+.path-local-mail .mail_all_recipients_actions input:hover {
+	background-color: #c93806;
+}
+
+.path-local-mail .mail_recipient_actions input[type="image"],
+.path-local-mail .mail_all_recipients_actions input[type="image"] {
+	background: none;
+	width: 16px;
+	height: 16px;
+	padding: 0px;
+}
+
+.path-local-mail .mail_recipient_actions input[type="image"]:hover,
+.path-local-mail .mail_all_recipients_actions input[type="image"]:hover {
+	background: none;
+}
+
+
+.path-local-mail .mail_recipient input{
+	padding: 9px 4px;
+}
+
+
+#local_mail_recipients_form.small .mail_form_recipient img{
+	display:none;
+}
+
+#local_mail_recipients_form.small .mail_form_recipient_name {
+	width:100px;
+	margin-left: 5px;
+}
+
+#local_mail_recipients_form.small .mail_search {
+	width:128px;
+}
+
+#local_mail_recipients_form.small .mail_all_recipients_actions {
+	margin-top: 3px;
+}
+
+#local_mail_recipients_form.small .mail_all_recipients_actions input[name="remove_all"]{
+	margin-top: -7px;
+}
+
+#local_mail_recipients_form.small .mail_form_recipient {
+	min-height: 28px;
+}
+
+@media(max-width:590px){
+	.path-local-mail #id_content_ltr,
+	.path-local-mail #id_content_rtl,
+	.path-local-mail #id_content_fullscreen,
+	.path-local-mail #id_content_formatselect_text  {
+		display:none;
+	}
+
+	.path-local-mail .mform .felement.feditor .mceStatusbar,
+	.path-local-mail .mform .felement.feditor iframe{
+		min-width: 30em;
+	}
+}
+/******************************** MODULO: BOOK/CLASE agregar maxwidth para que se vea tipo ebook *************************************/
+#page-mod-book-view .book_content, #page-mod-book-view .book_content td, #page-mod-page-view .generalbox, #page-mod-page-view .generalbox td {
+text-align: left;
+max-width: 900px;
+margin: auto;
+font-family: 'Open sans', helvetica, arial, sans-serif;
+}
+
