@@ -15,6 +15,7 @@ $plugin->requires = '2018051702.00';
 $plugin->component = 'theme_gflacso_new';                                                                                                 
  
 // This is a list of plugins, this plugin depends on (and their versions).                                                          
-$plugin->dependencies = [                                                                                                           
-    'theme_boost' => '2018051400'                                                                                                   
+$plugin->dependencies = [   
+    'theme_boost' => '2022041900'  
+   //Gaspar comentario 'theme_boost' => '2018051400'                                                                                                   
 ];
